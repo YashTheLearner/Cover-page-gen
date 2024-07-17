@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+    background-color: black;
+}
+.preview {
+    margin: 100px 10px 50px 10px;
+    flex: 1;
+    width: 60%;
+    height: 90vh;
+    background-color: white;
+    border: solid;
+}
+.editor {
+    margin: 100px 10px 50px 10px;
+    display: flex;
+    flex: 1;
+    width:30%;
+    height: 65vh;
+    border: solid;
+    background-color: grey;
+}
