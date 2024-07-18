@@ -36,7 +36,8 @@ const PDF = ({ images,userImg }) => {
           <Draggable>
             <div className='flex-col'>
               <input type="text" className='subHeading' placeholder='Submitted by:' />
-              <input type="text" className='subHeading' placeholder='RGPV' />
+              <input type="text" className='subHeading' placeholder='Yash Rajput' />
+              <input type="text" className='subHeading' placeholder='0101EC231156' />
             </div>
           </Draggable>
           <Draggable>
