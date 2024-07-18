@@ -8,6 +8,8 @@ import Right from './components/Right';
 function App() {
   const [images, setImages] = useState([]);
   const [userImg, setUserImg] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
+
   const handleFileUpload = (event) => {
     const files = event.target.files;
     const newImages = [];
@@ -45,10 +47,10 @@ function App() {
 
   return (
     <div>
-      <Header handleDownloadPdf={handleDownloadPdf} handleFileUpload={handleFileUpload} />
+      <Header handleDownloadPdf={handleDownloadPdf} handleFileUpload={handleFileUpload} setIsOpen={setIsOpen} />
       <div className="hero">
-        <Left images={images} />
-        <Right images={images} userImg={userImg} />
+        <Left images={images} isOpen={isOpen}/>
+        <Right images={images} userImg={userImg} isOpen={isOpen} />
       </div>
     </div>
   );

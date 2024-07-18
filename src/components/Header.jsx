@@ -1,10 +1,12 @@
 import React from 'react';
 
-const Header = ({ handleDownloadPdf, handleFileUpload }) => {
+const Header = ({ handleDownloadPdf, handleFileUpload, setIsOpen }) => {
   return (
     <div className="navbar">
       <div className="nav1">
-        <div className="ham"></div>
+        <button style={{ backgroundColor: "#323639", border: "none" }} 
+        onClick={() => { setIsOpen((prev) => !prev); }}
+        ><div className="ham"></div></button>
         <div className="logo">PDF Editor</div>
       </div>
       {/* <div className="controls">

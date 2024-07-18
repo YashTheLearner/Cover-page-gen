@@ -1,9 +1,9 @@
 import React from "react";
 import PDF from "./PDF";
 
-const Left = () => {
+const Left = ({isOpen}) => {
   return (
-    <div className="left">
+    <div className={`left ${isOpen? "":"closel"} `}>
       <div className="preview">
         <div className="page">
           <div className="scale">

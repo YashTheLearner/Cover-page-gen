@@ -122,6 +122,11 @@
     background-color: #323639;
     box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.371); /* Adds an inset shadow */
 }
+.closel{
+    position: relative;
+    display: none;
+    left: 100%;
+}
 h1{
     text-align: center;
     margin: 20px 0;
@@ -154,9 +159,14 @@ h1{
 }
 .right{
     height: 90vh;
-    width: calc(100vw - 280px);
     background-color: #525659;
     overflow-y: auto;
+}
+.openr{
+    width: calc(100vw - 280px);
+}
+.closer{
+    width: 100vw;
 }
 .pdf{ 
     margin: auto;
