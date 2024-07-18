@@ -1,8 +1,36 @@
-# React + Vite
+# Cover-page-gen
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ever since joining college we have been troubled by the endless assignments. One of the most redundant tasks for us was desigining a cover page for every assignment.
 
-Currently, two official plugins are available:
+Most people use Canva or Word to design a cover page and then they have to edit it each time for every assignment. This can be a real problem if you are in a hurry and have a deadline as the process is slow and tedious.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+We felt this can be optimized by making a simple web page which acts as a generator for cover pages where one can enter the required details and get the cover page. So that is how we were inspired to work on this project.
+
+## You can check a running version of our project [here][0].
+
+## CREDITS:
+### HTML2Canvas
+HTML2Canvas is used to take screenshots of web pages or specific sections.
+
+### JSPDF
+JSPDF is used to generate PDFs from the captured screenshots.
+
+### React
+React is a popular JavaScript library for building user interfaces, particularly single-page applications where data changes over time.
+
+## Features
+- Capture screenshots of specific sections of the website.
+- Generate PDFs from the captured screenshots.
+- Real-time editing capabilities.
+
+## TO-DO
+- Responsive design (mobile friendly layout)
+
+## Contrubutors 
+## Contributors 
+- [Yash Rajput][1]
+- [Anany Mishra][2]
+
+[0]: https://frontpagecreator.vercel.app/ "here"
+[1]: https://github.com/YashTheLearner "Yash Rajput"
+[2]: https://github.com/ananymishra "Anany Mishra"
