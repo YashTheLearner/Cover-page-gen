@@ -26,7 +26,6 @@ React is a popular JavaScript library for building user interfaces, particularly
 ## TO-DO
 - Responsive design (mobile friendly layout)
 
-## Contrubutors 
 ## Contributors 
 - [Yash Rajput][1]
 - [Anany Mishra][2]
