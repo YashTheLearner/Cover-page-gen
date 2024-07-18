@@ -24,7 +24,9 @@ React is a popular JavaScript library for building user interfaces, particularly
 - Real-time editing capabilities.
 
 ## TO-DO
-- Responsive design (mobile friendly layout)
+- ~~Responsive design (mobile friendly layout)~~
+- Controls function
+- Lock/Unlock functionality (drag)
 
 ## Contributors 
 - [Yash Rajput][1]
