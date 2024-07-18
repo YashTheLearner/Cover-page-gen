@@ -28,8 +28,8 @@
 }
 .pdf{
     /* background-color: black; */
-    width: 40vw;
-    height: 70.7vw;
+    width: 595px;
+    height: 842px;
     display: flex;
     align-items: center;
     align-content: center;
@@ -43,4 +43,27 @@
     height: 90%;
     width: 90%;
 }
-
+input{
+    border: none;
+    width: 100%;
+}
+::placeholder {
+    color: black;
+    opacity: 1;
+    text-align: center;
+}
+.logo{
+    align-items: center;
+    height: 10em;
+}
+.logo img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 10em;
+    width: auto;
+}
+.submitted{
+    display: flex;
+    justify-content: center;
+}
