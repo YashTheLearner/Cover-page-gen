@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PDF Editor</title>
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
     <div class='content'>
         <div class="navbar">
@@ -16,20 +14,32 @@
         </div>
         <div class="pdf">
             <div class="border">
-                <div class='college'>UNIVERSITY INSTITUTE OF TECHNOLOGY</div>
-                <div class="logo"></div>
-                <div>RGPV</div>
-                <div>YEAR: 2024</div>
-                <div>SEMESTER - 02
+                <input type="text" placeholder="UNIVERSITY INSTITUTE OF TECHNOLOGY" style="font-size: 1.5em; padding:20px"></input><br>
+                <div class="logo">
+                    <img src="img.png"></img>
+                </div><br>
+                <input type="text" placeholder="RGPV" style="font-size: 2em; padding-top:20px; padding-bottom: 5px"></input> <br>
+                <input type="text" placeholder="YEAR: 2024" style="font-size: 1.25em; padding:5px"></input> <br>
+                <input type="text" placeholder="SEMESTER: 02" style="font-size: 1em; padding:5px"></input><br>
+                <input type="text" placeholder="SUBJECT: " style="font-size: 1.25em; padding:5px"></input><br>
+                <input type="text" placeholder="TOPIC: " style="font-size: 1em; padding:5px"></input><br>
+                <div style="padding: 50px"></div>
+                <div class="submitted">
+                    <div id="submittedby">
+                        <p style="text-align: center; font-size: 1.25em;">Submitted by:</p>
+                        <input type="text" placeholder="Yash Rajput" style="font-size: 1em; padding:5px"></input><br>
+                    </div>
+
+
+                    <div id="submittedbto">
+                        <p style="text-align: center; font-size: 1.25em;">Submitted to:</p>
+                        <input type="text" placeholder="Anany Mishra" style="font-size: 1em; padding:5px"></input><br>
+                    </div>
                 </div>
-                <div>BOOK REVIEW</div>
-                <div>By:</div>
-                <div>COMMUNICATION </div>
             </div>
         </div>
-    </div>
+      </div>
     <script src="script.js"></script>
 
 </body>
-
 </html>
