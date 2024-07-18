@@ -12,7 +12,7 @@ const Left = () => {
         </div>
         <div>1</div>
       </div>
-      <h1>Made by Yash</h1>
+      <h1></h1>
     </div>
   );
 };
